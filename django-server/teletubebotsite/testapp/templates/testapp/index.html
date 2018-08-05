@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+</head>
+<body>
+<h1>Hello, {{ user_name }}!</h1>
+<blockquote>
+    <ul>
+        {% for key, value in array %}
+        <li><h3> (key: {{ key }}; value: {{ value }})</h3></li>
+        {% endfor %}
+    </ul>
+</blockquote>
+</body>
+</html>
